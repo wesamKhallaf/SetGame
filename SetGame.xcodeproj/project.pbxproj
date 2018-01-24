@@ -12,6 +12,9 @@
 		23B4E4CC2005F9050076DD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B4E4CA2005F9050076DD65 /* Main.storyboard */; };
 		23B4E4CE2005F9050076DD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B4E4CD2005F9050076DD65 /* Assets.xcassets */; };
 		23B4E4D12005F9050076DD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B4E4CF2005F9050076DD65 /* LaunchScreen.storyboard */; };
+		23B4E4D92005F9620076DD65 /* SetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B4E4D82005F9620076DD65 /* SetCardView.swift */; };
+		23B4E4FB200CBF900076DD65 /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B4E4FA200CBF900076DD65 /* SetCard.swift */; };
+		23B4E4FD200CC0E00076DD65 /* SetCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B4E4FC200CC0E00076DD65 /* SetCardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		23B4E4CD2005F9050076DD65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23B4E4D02005F9050076DD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23B4E4D22005F9050076DD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B4E4D82005F9620076DD65 /* SetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardView.swift; sourceTree = "<group>"; };
+		23B4E4FA200CBF900076DD65 /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
+		23B4E4FC200CC0E00076DD65 /* SetCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		23B4E4C52005F9050076DD65 /* SetGame */ = {
 			isa = PBXGroup;
 			children = (
+				23B4E4D82005F9620076DD65 /* SetCardView.swift */,
 				23B4E4C62005F9050076DD65 /* AppDelegate.swift */,
 				23B4E4C82005F9050076DD65 /* ViewController.swift */,
+				23B4E4FA200CBF900076DD65 /* SetCard.swift */,
+				23B4E4FC200CC0E00076DD65 /* SetCardDeck.swift */,
 				23B4E4CA2005F9050076DD65 /* Main.storyboard */,
 				23B4E4CD2005F9050076DD65 /* Assets.xcassets */,
 				23B4E4CF2005F9050076DD65 /* LaunchScreen.storyboard */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B4E4FD200CC0E00076DD65 /* SetCardDeck.swift in Sources */,
 				23B4E4C92005F9050076DD65 /* ViewController.swift in Sources */,
 				23B4E4C72005F9050076DD65 /* AppDelegate.swift in Sources */,
+				23B4E4FB200CBF900076DD65 /* SetCard.swift in Sources */,
+				23B4E4D92005F9620076DD65 /* SetCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
